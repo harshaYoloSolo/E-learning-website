@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<title></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/gif/png" href="newlogo.png">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+  body {font-family: "Lato", sans-serif}
+//.mySlides {display: none}
+.myslides {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+#Backg {
+  background-image: url('9.jpg');
+}
+a{
+  text-decoration:none;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#Courses" class="w3-bar-item w3-button w3-padding-large w3-hide-small">COURSES</a>
+       <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-padding-large w3-button" title="More">SIGN IN AS <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+    <a href="studentlog.php" class="w3-bar-item w3-button">STUDENT</a>
+    <a href="login.php" class="w3-bar-item w3-button">TUTOR</a>
+    </div>
+    </div>
+     <a onclick="window.open('/15IT211_harshak/E-learning_website/user.pdf');" style="float: right; " class="w3-bar-item w3-button w3-padding-large w3-hide-small">USER'S GUIDE</a>
+</div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+  <a href="#Courses" class="w3-bar-item w3-button w3-padding-large">COURSES</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large">SIGN IN</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    
+    <img src="back.jpg" style="width:100%">
+      <div class="centered" style="width:1100px; height:700px; margin-top: 185px;">
+  <h1>E-Learning exploits interactive technologies and communication systems to improve the learning experience.</h1>
+  </div>
+
+  </div>
+  </div>
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="Courses">
+    <h2 class="w3-wide">Courses</h2>
+    <p class="w3-opacity"><b>Learning with Technology.</b></p>
+    <p class="w3-justify">The main motive of this website is to make student learn stuffs which are hard for him to find in school or in any tution classes in order to provide all thes we are offering som of the courses that students can get.  </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p style="font-size: 25px;">C-programming</p>
+        <a href="student.php"><img src="https://cortexitrecruitment.com/wp-content/uploads/2015/08/laptop-guy.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:85%">
+           <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      Register Now</a>
+    </button>
+      </div>
+      <div class="w3-third">
+        <p style="font-size:25px;">Html and Css</p>
+        <a href="student.php"><img src="https://udemy-images.udemy.com/course/750x422/792484_cc98_3.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:100%">
+              <button class="w3-button w3-light-grey w3-padding-large w3-section">
+    Register Now</a>
+    </button>
+      </div>
+      <div class="w3-third">
+        <p style="font-size:25px; ">Python</p>
+        <a href="student.php"><img src="data:image/png;base64,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" class="w3-round" alt="Random Name" style="width:100%; margin-top:75px;">
+           <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      Register Now</a>
+    </button>
+      </div>
+    </div>
+  </div>
+
+<div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+ 
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+    <a id="contact"></a>
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Any Query? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom" style="margin-left: 275px;">
+        <i class="fa fa-user" style="width:30px"></i>Harsha K<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +91 -78-46-352536<br>
+        <i class="fa fa-envelope" style="width:30px"> </i>Email: harshak.097@gmail.com<br>
+      </div>
+    
+
+  
+<!-- End Page Content -->
+</div>
+
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+</footer>
+
+<script>
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
